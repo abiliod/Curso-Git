@@ -1,0 +1,36 @@
+git status -  mostra o status dos arquivos
+git add .  - adiciona os arquivos para a stage área
+git commit - confirma as alterações na stage área
+git commit -m "Primeiro commit" - confirma as alterações na stage área com a mensagem de marcação desejada.
+git commit -a - m "Primeiro commit" - adiciona e comita simultameamente
+git diff   - 
+git diff - staged
+git log - mostra todos comig
+git log -p mostra todos comits em ordem cronologica mostrando o que foi feito em cada um 
+git log -p -1 - mostra o ultimo commit
+gitk  - exibe interface grafica para analise
+  - exibe a listagem de commits
+git --amend -m "edição do ultimo commit(edição)"
+git reset HEAD <file> reseta o arquivo comitado na stage area pode mudar a mensagem do commit
+git checout -- <file> reseta o arquivo comitado na stage area
+git rm <file> -  remove o arquivo do diretório de trabalho
+aula 5  https://www.youtube.com/watch?v=Fhd8OKIDQ5M&list=PLInBAd9OZCzzHBJjLFZzRl6DgUmOeG3H0&index=6  
+git tag -a V1.0 -m "Versão 1.0"
+git show V1.0  mostra a tag
+git branch teste  - cria uma branch
+git checkout teste - estando na branch master carrega todos arquivos para a branch teste
+git checkout -b teste faz os dois comandos acima
+git branch -d <branch> deleta a branch
+
+aula 7 https://www.youtube.com/watch?v=1IfAFYQD8u0&list=PLInBAd9OZCzzHBJjLFZzRl6DgUmOeG3H0&index=7
+
+ssh-keygen  gera chaves para autorizar o computador conectar com o github
+copiar o código ssh
+git clone <codugo ssh> clona o repositorio na sua máquina
+git pull origin main - atualiza o repositório 
+
+
+
+
+
+  
