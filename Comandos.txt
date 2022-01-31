@@ -21,10 +21,22 @@ git branch teste  - cria uma branch
 git checkout teste - estando na branch master carrega todos arquivos para a branch teste
 git checkout -b teste faz os dois comandos acima
 git branch -d <branch> deleta a branch
+<<<<<<< HEAD
 s
 https://www.youtube.com/watch?v=1IfAFYQD8u0&list=PLInBAd9OZCzzHBJjLFZzRl6DgUmOeG3H0&index=7
 
 ssh-keygen  gera chaves para autorizar o computador conectar com o github
+=======
+
+aula 7 https://www.youtube.com/watch?v=1IfAFYQD8u0&list=PLInBAd9OZCzzHBJjLFZzRl6DgUmOeG3H0&index=7
+
+ssh-keygen  gera chaves para autorizar o computador conectar com o github
+copiar o código ssh
+git clone <codugo ssh> clona o repositorio na sua máquina
+git pull origin main - atualiza o repositório 
+
+
+>>>>>>> teste
 
 
 
